@@ -1,0 +1,136 @@
+:root{
+    --crl-primary:  hsl(158, 36%, 37%);
+    --secundary: hsl(30, 38%, 92%);
+
+    --verydarkblue: hsl(212, 21%, 14%);
+    --darkgrayishblue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+
+    --ff-accent: 'Fraunces', serif;
+    --ff-base: 'Montserrat', sans-serif;
+    --ff-precio: 'Fraunces',serif;
+
+    --fw-regular: 500;
+    --fw-bold: 700;
+
+}
+
+* {
+    /*margin:0;
+    padding: 0;
+    box-sizing: border-box;*/
+
+}
+.body{
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+    font-size: 0.875rem;
+    font-family: sans-serif;
+ 
+}
+.background{
+    background-color: rgb(214, 199, 199);
+    /*align-items: center;
+    justify-content: center;
+    text-align: center;*/
+}
+.content{
+
+    height: auto;
+    margin: auto;
+    width: 800px;
+    background: rgb(242, 213, 213);   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(242, 213, 213);
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    /*width: 100px;
+    height: auto;
+    background:rgb(133, 16, 16);
+    border-radius: px;
+    position: relative;*/
+
+}
+.header img{
+    margin: 10px;
+    padding-right: 105px;
+    height: 400px;
+}
+
+.perfume{
+    color:  hsl(228, 12%, 48%);
+}
+.title{
+    color:hsl(212, 21%, 14%);
+    padding-left: 10px;
+
+}
+
+.description{
+    color: hsl(228, 12%, 48%);
+}
+.info{
+    text-align: left;
+}
+
+.content{
+    border-radius: 10px;
+
+}
+
+img{
+    max-width: 300px;
+    float: left;
+
+}
+
+.content{
+    align-items: center;
+
+}
+.precio{
+    color: green;
+    font-size: 2rem;
+    font-family: var(--ff-accent);
+   
+}
+.original{
+    color: hsl(228, 12%, 48%);
+    align-content:left;
+    align-items: left;
+    font: var(--precio);
+}
+.add{
+    align-items: right;
+    padding-right: 10px;
+    background-color: green;
+    border: 0;
+    border-radius: 0.5rem;
+    padding:0.75em 1.5em;
+    color: #fff;
+}
+
+/*mobile version*/
+
+@media screen and(min-width: 375px){
+    /*.imagen{
+        width:200
+
+    }
+    .title{
+        width: 100px;
+    }  */
+
+    .title{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+
+}
